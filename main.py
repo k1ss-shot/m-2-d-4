@@ -83,16 +83,16 @@
 # for n in str(number):
 #     result += int(n)
     
-class Number:
-    def __init__(self, number):
-        self.number = number
+# class Number:
+#     def __init__(self, number):
+#         self.number = number
         
-    def get_num_sum(self):
-        result = 0
-        for n in str(self.number):
-            result += int(n)
+#     def get_num_sum(self):
+#         result = 0
+#         for n in str(self.number):
+#             result += int(n)
             
-        return result
+#         return result
     
-number = Number(35732)
-print(number.get_num_sum())
+# number = Number(35732)
+# print(number.get_num_sum())
